@@ -27,7 +27,7 @@ export default class Appbar extends Component {
 
         <Drawer
           docked={false}
-          width={200}
+          width={220}
           open={this.state.open}
           onRequestChange={(open) => this.setState({open})}
         >

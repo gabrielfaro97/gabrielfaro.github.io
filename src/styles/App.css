@@ -9,6 +9,7 @@
 }
 
 .App-header {
+  flex: 1;  
   height: 150px;
   padding: 20px;
 }
@@ -18,7 +19,7 @@
 }
 
 .Main-text {
-  width: 50%;
+  width: 60%;
 }
 
 .Footer {
