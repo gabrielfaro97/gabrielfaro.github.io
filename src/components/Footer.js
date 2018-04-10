@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import facebook from "../assets/facebook.svg"
+import instagram from "../assets/instagram.svg"
+import git from "../assets/git.svg"
 
 export default class Footer extends Component {
   render() {
@@ -13,24 +16,18 @@ export default class Footer extends Component {
           bottom: "0",
           backgroundColor: "#222",
           height: "5%",
-          width: "100%",
-          //zIndex: 11000
+          width: "100%",          
         }}
       >
         <div style={{width: '100%', display: 'flex', marginLeft:'2%', marginRight: '2%', fontSize:'75%' }}>
-          <a style={{ flex: 1, color: "white" }}>
-            All rights goes to Fulaninho de Tal
-          </a>
+          <span style={{ flex: 1, color: "white", marginTop: 7 }}>
+            Powered by Me Myself
+          </span>          
 
-          <a style={{ marginLeft: 10 }} href="url">
-            Github
-          </a>
-          <a style={{ marginLeft: 10  }} href="url">
-            Facebook
-          </a>
-          <a style={{ marginLeft: 10 }} href="url">
-            Instagram
-          </a>                    
+          <img src={git} alt={'github'} style={{marginLeft: 10, width: 25, height: 25}}/>
+          <img src={instagram} alt={'instagram'} style={{marginLeft: 10, width: 25, height: 25}}/>
+          <img src={facebook} alt={'facebook'} style={{marginLeft: 10, width: 25, height: 25}}/>
+
         </div>  
       </footer>
     );
