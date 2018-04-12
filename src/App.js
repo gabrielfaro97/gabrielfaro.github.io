@@ -9,12 +9,15 @@ class App extends Component {
     return (
       <MuiThemeProvider>
         <div>
-          <div className="Centered-text">
-            <Appbar className="App-header" />
+          <div>
+            <Appbar className="App-header"/>
           </div>
 
           <div className="App">
             <div className="Main-text">
+
+              <h2 className="Centered-text"> Lorem Ipsum </h2>
+              <h3 className="Description-text"> Ipsum Lorem elit nostro </h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed
@@ -41,7 +44,7 @@ class App extends Component {
                 volutpat condimentum velit.
               </p>
             </div>
-            <Footer />
+            <Footer className="Footer"/>
           </div>
         </div>
       </MuiThemeProvider>

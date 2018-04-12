@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import "../styles/App.css"
 import facebook from "../assets/facebook.svg"
 import instagram from "../assets/instagram.svg"
 import git from "../assets/git.svg"
@@ -7,19 +8,7 @@ import copyright from "../assets/copyright.svg"
 export default class Footer extends Component {
   render() {
     return (
-      <footer
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          position: "fixed",
-          justifyContent: "flex-end",
-          alignItems: "center",
-          bottom: "0",
-          backgroundColor: "#222",
-          height: "5%",
-          width: "100%",          
-        }}
-      >
+      <footer className="Footer">
         <div style={{width: '100%', display: 'flex', marginLeft:'2%', marginRight: '2%', fontSize:'75%' }}>
         <img src={copyright} alt={'copyright-symbol'} style={{marginTop: 7, marginRight: 5, width: 13, height: 13}}/>
           <div style={{ flex: 1, color: "white", marginTop: 7 }}>                            
